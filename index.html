@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Calculate GPA for SEE class 10 students appearing in the SEE (Secondary Education Examination) Nepal conducted by NEB (National Examination Board).">
+    <meta name="description" content="see gpa calculator neb">
+    <meta name="description" content="class 10 gpa calculator">
+    <meta name="description" content="saroj panthi">
+    <meta name="description" content="saroj panthi website">
+    <link rel="icon" href="Screenshot_2024-03-22_110022-removebg-preview.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>SEE GPA Calculator</title>
+</head>
+<h1 class="head">SEE NEB GPA Calculator</h1>
+<br>
+<body>
+    <p class="introtext">Welcome to our GPA calculator designed specifically for Secondary Education Examination (SEE) students. Our platform enables you to input your estimated marks, allowing you to instantly determine your GPA. Our system aligns with the updated grading system and revised credit hours for each subject as per the guidelines set by the National Examination Board (NEB). Simply enter your marks to discover your GPA effortlessly.</p>
+    <br><br>
+    <p class="introtext1">Enter your guess mark in each subject</p>
+    <div class="table">
+        <table class="ctable">
+            <thead>
+                <tr>
+                    <th>Subjects</th>
+                    <th>Theory</th>
+                    <th>Practical</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Math</td>
+                    <td><input type="text" class="input-field" id="mathth"></td>
+                    <td><input type="text" class="input-field" id="mathpr"></td>
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <td><input type="text" class="input-field" id="scienceth"></td>
+                    <td><input type="text" class="input-field" id="sciencepr"></td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td><input type="text" class="input-field" id="englishth"></td>
+                    <td><input type="text" class="input-field" id="englishpr"></td>
+                </tr>
+                <tr>
+                    <td>Nepali</td>
+                    <td><input type="text" class="input-field" id="nepalith"></td>
+                    <td><input type="text" class="input-field" id="nepalipr"></td>
+                </tr>
+                <tr>
+                    <td>Social</td>
+                    <td><input type="text" class="input-field" id="socialth"></td>
+                    <td><input type="text" class="input-field" id="socialpr"></td>
+                </tr>
+                <tr>
+                    <td>A.Math/Population</td>
+                    <td><input type="text" class="input-field" id="populationth"></td>
+                    <td><input type="text" class="input-field" id="populationpr"></td>
+                </tr>
+                <tr>
+                  <td>Computer</td>
+                  <td><input type="text" class="input-field" id="computerth"></td>
+                  <td><input type="text" class="input-field" id="computerpr"></td>
+              </tr>
+              <tr>
+                <td>Account</td>
+                <td><input type="text" class="input-field" id="accountth"></td>
+                <td><input type="text" class="input-field" id="accountpr"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <button class="button" onclick="calculateGpa()">Calculate GPA</button>
+    <p class="cresult" id="result"></p>
+    <br>
+    <p class="introtext1">My Instagram </p><a href="https://www.instagram.com/saroj_panthi7/"><img src="instalogoo.png" class="insta-logo"></img></a>
+    <br>
+    <p>&copy; Saroj Panthi All Rights Reserved</p>
+</body>
+</html>
+

@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(118, 118, 118);
+  }
+    .table .ctable {
+        border: 1px solid hsl(0, 1%, 44%);
+        border-spacing: 0;
+        margin: 10px 20px;  
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: hsl(0, 0%, 17%);
+      
+    }
+    .table{
+        margin: 0 auto;
+    }
+    tr{
+      text-align: center;
+    }
+    th {
+        font-size: 26px;
+        margin: 3px 6px;
+        padding: 10px;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+    }
+    td {
+        font-size: 24px;
+        margin: 3px 6px;
+        padding: 10px;
+        color:hsl(0, 0%, 85%);
+        text-align: center;
+    }
+    .input-field {
+        max-width: 20%;
+        position: relative;
+        left: 50px;
+        margin: 10px 20px;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+    .input-field:focus {
+        border-color: rgb(255, 0, 0);
+    }
+    .button {
+        appearance: button;
+        backface-visibility: hidden;
+        background-color: #405cf5;
+        border-radius: 6px;
+        border-width: 0;
+        box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+        font-size: 100%;
+        height: 44px;
+        line-height: 1.15;
+        margin: 12px 0 0;
+        outline: none;
+        overflow: hidden;
+        padding: 0 25px;
+        position: relative;
+        text-align: center;
+        text-transform: none;
+        transform: translateZ(0);
+        transition: all .2s, box-shadow .08s ease-in;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: auto;
+    }
+    .button:disabled {
+        cursor: default;
+    }
+    .button:focus {
+        box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+    }
+    .input-field-choose {
+        max-width: 100%;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    .cresult{
+      font-size: 30px;
+      color: aliceblue;
+    }
+    .head{
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .introtext{
+        display:inline-flexbox;
+        color: rgb(218, 218, 218);
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .introtext1{
+        display:inline-flexbox;
+        color: greenyellow;
+        font-family:sans-serif;
+        font-size: 25px;
+    }
+    .insta-logo{
+        width: 10%;
+        display: inline block;
+    }
