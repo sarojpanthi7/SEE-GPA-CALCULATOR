@@ -23,7 +23,7 @@ function calculateGpa() {
 
 // Calculation for each subject
 
-// For mathth
+// For Theoritical marks of Math
 if (mathth >= 67.5) {
     maththgrade = 4;
 } else if (mathth >= 60) {
@@ -40,7 +40,7 @@ if (mathth >= 67.5) {
     maththgrade = 1.6;
 } 
 
-// For mathpr
+// For practical marks of Math
 if (mathpr >= 22.5) {
     mathprgrade = 4;
 } else if (mathpr >= 20) {
@@ -57,9 +57,8 @@ if (mathpr >= 22.5) {
     mathprgrade = 1.6;
 } 
 
-// Similarly, calculate grades for other subjects as well
 
-// For scienceth
+//For Theoritical marks of Science
 if (scienceth >= 67.5) {
     sciencethgrade = 4;
 } else if (scienceth >= 60) {
@@ -76,7 +75,7 @@ if (scienceth >= 67.5) {
     sciencethgrade = 1.6;
 } 
 
-// For sciencepr
+//For practical marks of Science
 if (sciencepr >= 22.5) {
     scienceprgrade = 4;
 } else if (sciencepr >= 20) {
@@ -93,7 +92,7 @@ if (sciencepr >= 22.5) {
     scienceprgrade = 1.6;
 } 
 
-// For englishth
+// For theoritical marks of English
 if (englishth >= 67.5) {
     englishthgrade = 4;
 } else if (englishth >= 60) {
@@ -110,7 +109,7 @@ if (englishth >= 67.5) {
     englishthgrade = 1.6;
 }
 
-// For englishpr
+// For practical marks of English
 if (englishpr >= 22.5) {
     englishprgrade = 4;
 } else if (englishpr >= 20) {
@@ -127,9 +126,7 @@ if (englishpr >= 22.5) {
     englishprgrade = 1.6;
 }
 
-// Repeat this pattern for other subjects
-
-// For nepalith
+// For theroitical subject of Nepali
 if (nepalith >= 67.5) {
     nepalithgrade = 4;
 } else if (nepalith >= 60) {
@@ -146,7 +143,7 @@ if (nepalith >= 67.5) {
     nepalithgrade = 1.6;
 } 
 
-// For nepalipr
+// For practical marks of Nepali
 if (nepalipr >= 22.5) {
     nepaliprgrade = 4;
 } else if (nepalipr >= 20) {
